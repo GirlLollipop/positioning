@@ -1,0 +1,14 @@
+.box_1{
+  font-style: normal;
+  font: Courier;
+  font-size: 13pt;
+  color: #000000;
+}
+.box_2 {
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #20B2AA;
+    padding: 10px 0;
+}

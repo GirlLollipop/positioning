@@ -1,0 +1,71 @@
+
+.camp {
+  background: #8cb27c;
+  border-width: 50px;
+  height: 500px;
+  width: 900px;
+  position: relative;
+  left: 200px;
+  top: 100px;
+}
+
+.campInt {
+  background: #8cb27c;
+  border: 5px solid #ffffff;
+  height: 400px;
+  width: 792px;
+  position: absolute;
+  left: 250px;
+  top: 150px;
+}
+
+.goalLeft {
+  background: #8cb27c;
+  border: 5px solid #ffffff;
+  height: 200px;
+  width: 150px;
+  position: absolute;
+  left: 250px;
+  top: 250px;
+}
+
+.goalRight {
+  background: #8cb27c;
+  border: 5px solid #ffffff;
+  height: 200px;
+  width: 150px;
+  position: absolute;
+  right: 228px;
+  top: 250px;
+}
+
+.circle {
+     width: 200px;
+     height: 200px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     border: 5px solid #ffffff;
+     background: #8cb27c;
+     position: absolute;
+     right: 520px;
+     top: 250px;
+}
+
+.balonLeft{
+  position: relative;
+  left: 380px;
+  bottom: 250px;
+}
+
+.balonRight{
+  position: absolute;;
+  right: 390px;
+  bottom: 410px;
+  }
+
+  .balonMidle{
+    position: absolute;;
+    right: 590px;
+    top: 200px;
+    }
