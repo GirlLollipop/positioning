@@ -1,0 +1,22 @@
+section {
+  background: #e3e3e3;
+  color: #707070;
+  display: inline-block;
+  font-family: sans-serif;
+  height: 20%;
+  margin: 1px;
+  width: 19%;
+}
+
+section:hover {
+ background-color: white;
+ color: #ADD8E6;
+}
+
+section > h1,
+section > h2,
+section > h6,
+section > p {
+  text-align: center;
+  padding: 5px;
+}
