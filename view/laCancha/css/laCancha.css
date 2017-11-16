@@ -1,42 +1,54 @@
 
+body {
+  background-color: #228B22;
+}
+
+header {
+  color: white;
+  font-family: helvetica;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
 .camp {
   background: #8cb27c;
   border-width: 50px;
   height: 500px;
-  width: 900px;
+  width: 1000px;
   position: relative;
-  left: 200px;
-  top: 100px;
+  left: 10%;
+  top: 50px;
 }
 
 .campInt {
   background: #8cb27c;
   border: 5px solid #ffffff;
   height: 400px;
-  width: 792px;
+  width: 900px;
   position: absolute;
-  left: 250px;
-  top: 150px;
+  left: 50px;
+  top: 50px;
 }
 
 .goalLeft {
   background: #8cb27c;
   border: 5px solid #ffffff;
   height: 200px;
-  width: 150px;
+  width: 100px;
   position: absolute;
-  left: 250px;
-  top: 250px;
+  left: -4px;
+  top: 100px;
 }
 
 .goalRight {
   background: #8cb27c;
   border: 5px solid #ffffff;
   height: 200px;
-  width: 150px;
+  width: 100px;
   position: absolute;
-  right: 228px;
-  top: 250px;
+  right: -4px;
+  top: 100px;
 }
 
 .circle {
@@ -48,24 +60,24 @@
      border: 5px solid #ffffff;
      background: #8cb27c;
      position: absolute;
-     right: 520px;
-     top: 250px;
+     right: 350px;
+     top: 100px;
 }
 
 .balonLeft{
-  position: relative;
-  left: 380px;
-  bottom: 250px;
+  position: absolute;;
+  left: 90px;
+  bottom: 267px;
 }
 
 .balonRight{
-  position: absolute;;
-  right: 390px;
-  bottom: 410px;
+  position: absolute;
+  right: 110px;
+  top: 260px;
   }
 
   .balonMidle{
     position: absolute;;
-    right: 590px;
-    top: 200px;
+    right: 400px;
+    top: 70px;
     }
